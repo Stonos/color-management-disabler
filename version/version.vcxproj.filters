@@ -23,6 +23,7 @@
     <None Include="version.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="version_asm.asm">
