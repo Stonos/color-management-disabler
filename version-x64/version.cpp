@@ -3,11 +3,7 @@
 #include <tchar.h>
 #include "MinHook.h"
 
-#if defined _M_X64
 #pragma comment(lib, "libMinHook-x64-v141-md.lib")
-#elif defined _M_IX86
-#pragma comment(lib, "libMinHook-x86-v141-md.lib")
-#endif
 
 HINSTANCE mHinst = 0, mHinstDLL = 0;
 extern "C" UINT_PTR mProcs[17] = { 0 };
